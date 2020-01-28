@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth2spring/auth2spring.iml" filepath="$PROJECT_DIR$/auth2spring/auth2spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sba/sba.iml" filepath="$PROJECT_DIR$/sba/sba.iml" />
       <module fileurl="file://$PROJECT_DIR$/securitytest/securitytest.iml" filepath="$PROJECT_DIR$/securitytest/securitytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springBootApplications.iml" filepath="$PROJECT_DIR$/.idea/springBootApplications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger/swagger.iml" filepath="$PROJECT_DIR$/swagger/swagger.iml" />
     </modules>
   </component>
 </project>

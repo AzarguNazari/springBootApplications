@@ -6,18 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="core" />
+        <module name="sba" />
+        <module name="auth2spring" />
         <module name="securitytest" />
-        <module name="springBootApplications" />
+        <module name="swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth2spring" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="sba" target="1.8" />
       <module name="securitytest" target="1.8" />
       <module name="springBootApplications" target="1.5" />
+      <module name="swagger" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth2spring" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="sba" options="-parameters" />
       <module name="securitytest" options="-parameters" />
+      <module name="swagger" options="-parameters" />
     </option>
   </component>
 </project>

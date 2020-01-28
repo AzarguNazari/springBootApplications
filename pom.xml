@@ -7,10 +7,14 @@
     <groupId>org.example</groupId>
     <artifactId>springbootApplication</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
 
     <modules>
+        <module>swagger</module>
+        <module>core</module>
+        <module>auth2spring</module>
         <module>securitytest</module>
+        <module>sba</module>
     </modules>
-
 </project>
