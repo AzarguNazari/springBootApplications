@@ -20,13 +20,4 @@ public class SwaggerConfiguration {
         return GroupedOpenApi.builder().setGroup("Test Group").pathsToMatch("/test/**").packagesToScan("com.example").build();
     }
 
-    @Bean
-    public GroupedOpenApi anotherTestGroup(){
-        return GroupedOpenApi.builder().setGroup("Another Test Group").pathsToMatch("/anotherOne/**").packagesToScan("com.example").build();
-    }
-
-    @Bean
-    public GroupedOpenApi studentGroup(){
-        return GroupedOpenApi.builder().setGroup("Student Test Group").pathsToMatch("/students/**").packagesToScan("com.example").build();
-    }
 }
