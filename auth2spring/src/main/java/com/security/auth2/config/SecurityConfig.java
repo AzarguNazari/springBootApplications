@@ -1,7 +1,7 @@
 package com.security.auth2.config;
 
-import com.patternmatch.oauth2blog.repository.AppUserRepository;
-import com.patternmatch.oauth2blog.service.DefaultUserDetailsService;
+import com.security.auth2.repository.AppUserRepository;
+import com.security.auth2.service.DefaultUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

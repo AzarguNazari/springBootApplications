@@ -1,6 +1,6 @@
 package com.security.auth2.repository;
 
-import com.patternmatch.oauth2blog.entity.AppUser;
+import com.security.auth2.entity.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AppUserRepository extends JpaRepository<AppUser, String> {

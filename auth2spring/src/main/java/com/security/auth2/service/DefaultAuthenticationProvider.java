@@ -1,7 +1,7 @@
 package com.security.auth2.service;
 
-import com.patternmatch.oauth2blog.entity.AppUser;
-import com.patternmatch.oauth2blog.repository.AppUserRepository;
+import com.security.auth2.entity.AppUser;
+import com.security.auth2.repository.AppUserRepository;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

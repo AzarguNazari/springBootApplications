@@ -1,6 +1,6 @@
 package com.security.auth2.resources;
 
-import com.patternmatch.oauth2blog.config.Const;
+import com.security.auth2.config.Const;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

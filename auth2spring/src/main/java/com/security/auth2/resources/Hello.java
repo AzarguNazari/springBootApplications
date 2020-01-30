@@ -1,6 +1,6 @@
 package com.security.auth2.resources;
 
-import com.patternmatch.oauth2blog.model.Welcome;
+import com.security.auth2.model.Welcome;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.security.access.annotation.Secured;
