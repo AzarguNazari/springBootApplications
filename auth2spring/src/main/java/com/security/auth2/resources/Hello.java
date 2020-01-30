@@ -10,10 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.security.Principal;
 
 @RestController
-@RequestMapping(
-        value = {"/api/hello"},
-        produces = MediaType.APPLICATION_JSON_VALUE
-)
+@RequestMapping(value = {"/api/hello"}, produces = MediaType.APPLICATION_JSON_VALUE)
 @Validated
 public class Hello {
 

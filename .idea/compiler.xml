@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jwt" />
+        <module name="auth2spring" />
+        <module name="demo" />
+        <module name="swagger" />
         <module name="core" />
         <module name="sba" />
-        <module name="auth2spring" />
         <module name="securitytest" />
-        <module name="swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auth2spring" target="1.8" />
       <module name="core" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="jwt" target="1.8" />
       <module name="sba" target="1.8" />
       <module name="securitytest" target="1.8" />
       <module name="springBootApplications" target="1.5" />
@@ -26,6 +30,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth2spring" options="-parameters" />
       <module name="core" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="jwt" options="-parameters" />
       <module name="sba" options="-parameters" />
       <module name="securitytest" options="-parameters" />
       <module name="swagger" options="-parameters" />

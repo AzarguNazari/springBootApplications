@@ -18,10 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(
-        value = {"/admin"},
-        produces = MediaType.APPLICATION_JSON_VALUE
-)
+@RequestMapping(value = {"/admin"}, produces = MediaType.APPLICATION_JSON_VALUE)
 @Validated
 public class Admin {
 

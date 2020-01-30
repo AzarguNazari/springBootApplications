@@ -16,5 +16,6 @@
         <module>auth2spring</module>
         <module>securitytest</module>
         <module>sba</module>
+        <module>jwt</module>
     </modules>
 </project>

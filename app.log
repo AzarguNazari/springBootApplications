@@ -1,0 +1,217 @@
+2020-01-30 22:31:31.416  INFO 7501 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on hazar-pc with PID 7501 (/home/hazargn/IdeaProjects/springBootApplications/jwt/target/classes started by hazargn in /home/hazargn/IdeaProjects/springBootApplications)
+2020-01-30 22:31:31.425 DEBUG 7501 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-01-30 22:31:31.429  INFO 7501 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-01-30 22:31:33.401  INFO 7501 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-30 22:31:33.538  INFO 7501 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124ms. Found 2 repository interfaces.
+2020-01-30 22:31:34.568  INFO 7501 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6b35474f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 22:31:34.610  INFO 7501 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$eab59481] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 22:31:35.595  INFO 7501 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-30 22:31:35.654  INFO 7501 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-30 22:31:35.655  INFO 7501 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-01-30 22:31:35.878  INFO 7501 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-01-30 22:31:35.878  INFO 7501 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-30 22:31:35.879  INFO 7501 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-30 22:31:35.887  INFO 7501 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+2020-01-30 22:31:36.095  INFO 7501 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-30 22:31:36.096  INFO 7501 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4531 ms
+2020-01-30 22:31:36.445  WARN 7501 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-01-30 22:31:36.449  INFO 7501 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-30 22:31:36.479  INFO 7501 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-30 22:31:36.482 ERROR 7501 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-01-30 22:35:13.520  INFO 7877 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on hazar-pc with PID 7877 (/home/hazargn/IdeaProjects/springBootApplications/jwt/target/classes started by hazargn in /home/hazargn/IdeaProjects/springBootApplications)
+2020-01-30 22:35:13.541 DEBUG 7877 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-01-30 22:35:13.542  INFO 7877 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-01-30 22:35:15.928  INFO 7877 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-30 22:35:16.137  INFO 7877 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188ms. Found 2 repository interfaces.
+2020-01-30 22:35:17.984  INFO 7877 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27a14dcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 22:35:18.036  INFO 7877 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a7219b01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 22:35:19.547  INFO 7877 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-30 22:35:19.783  INFO 7877 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-30 22:35:19.788  INFO 7877 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-01-30 22:35:20.065  INFO 7877 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-01-30 22:35:20.066  INFO 7877 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-30 22:35:20.069  INFO 7877 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-30 22:35:20.076  INFO 7877 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+2020-01-30 22:35:20.253  INFO 7877 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-30 22:35:20.253  INFO 7877 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6539 ms
+2020-01-30 22:35:20.738  WARN 7877 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+2020-01-30 22:35:20.747  INFO 7877 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-30 22:35:20.776  INFO 7877 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-30 22:35:20.791 ERROR 7877 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:22) [classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 28 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 42 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.util.Assert.state(Assert.java:94) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6820b7bc.CGLIB$dataSource$0(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6820b7bc$$FastClassBySpringCGLIB$$348fdb47.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6820b7bc.dataSource(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_232]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_232]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_232]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_232]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 43 common frames omitted
+
+2020-01-30 22:43:40.734  INFO 8684 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on hazar-pc with PID 8684 (/home/hazargn/IdeaProjects/springBootApplications/jwt/target/classes started by hazargn in /home/hazargn/IdeaProjects/springBootApplications)
+2020-01-30 22:43:40.738 DEBUG 8684 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-01-30 22:43:40.742  INFO 8684 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-01-30 22:43:42.530  INFO 8684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-30 22:43:42.687  INFO 8684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144ms. Found 2 repository interfaces.
+2020-01-30 22:43:43.442  INFO 8684 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8475726c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 22:43:43.482  INFO 8684 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$3f5bf9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 22:43:43.969  INFO 8684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-30 22:43:44.010  INFO 8684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-30 22:43:44.011  INFO 8684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-01-30 22:43:44.118  INFO 8684 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-01-30 22:43:44.118  INFO 8684 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-30 22:43:44.118  INFO 8684 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-30 22:43:44.122  INFO 8684 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+2020-01-30 22:43:44.249  INFO 8684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-30 22:43:44.249  INFO 8684 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3373 ms
+2020-01-30 22:43:44.684  INFO 8684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-30 22:43:44.915  INFO 8684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-30 22:43:45.047  INFO 8684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-01-30 22:43:45.145  INFO 8684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-01-30 22:43:45.147  INFO 8684 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-01-30 22:43:45.325  INFO 8684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-30 22:43:45.598  INFO 8684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-01-30 22:43:45.697  INFO 8684 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-01-30 22:43:46.695  INFO 8684 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@54d46c8'
+2020-01-30 22:43:46.700  INFO 8684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-30 22:43:48.659  INFO 8684 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-30 22:43:49.412 DEBUG 8684 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration$$EnhancerBySpringCGLIB$$a2049ca1@43d84df1}
+2020-01-30 22:43:49.645 DEBUG 8684 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/auth/signin']
+2020-01-30 22:43:49.647 DEBUG 8684 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/vehicles/**', GET]
+2020-01-30 22:43:49.648 DEBUG 8684 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/vehicles/**', DELETE]
+2020-01-30 22:43:49.650 DEBUG 8684 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/v1/vehicles/**', GET]
+2020-01-30 22:43:49.650 DEBUG 8684 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2020-01-30 22:43:49.662 DEBUG 8684 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2020-01-30 22:43:49.663 DEBUG 8684 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2020-01-30 22:43:49.673  INFO 8684 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33cec966, org.springframework.security.web.context.SecurityContextPersistenceFilter@1aba8978, org.springframework.security.web.header.HeaderWriterFilter@22e253c7, org.springframework.security.web.authentication.logout.LogoutFilter@684eb4a0, com.example.demo.security.jwt.JwtTokenAuthenticationFilter@643fed50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2662e3ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f3f0d25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65b07b9, org.springframework.security.web.session.SessionManagementFilter@5134a7d6, org.springframework.security.web.access.ExceptionTranslationFilter@578781f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ae91bcc]
+2020-01-30 22:43:49.907  INFO 8684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-30 22:43:49.917  INFO 8684 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 10.577 seconds (JVM running for 11.55)
+2020-01-30 22:43:49.922 DEBUG 8684 --- [main] com.example.demo.DataInitializer         : initializing vehicles data...
+2020-01-30 22:43:50.063 DEBUG 8684 --- [main] com.example.demo.DataInitializer         : printing all vehicles...
+2020-01-30 22:43:50.084  INFO 8684 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-01-30 22:43:50.241 DEBUG 8684 --- [main] com.example.demo.DataInitializer         :  Vehicle :Vehicle(name=moto, brand=FORD)
+2020-01-30 22:43:50.241 DEBUG 8684 --- [main] com.example.demo.DataInitializer         :  Vehicle :Vehicle(name=car, brand=FORD)
+2020-01-30 22:43:50.502 DEBUG 8684 --- [main] com.example.demo.DataInitializer         : printing all users...
+2020-01-30 22:43:50.518 DEBUG 8684 --- [main] com.example.demo.DataInitializer         :  User :User(id=3, username=user, password={bcrypt}$2a$10$6aRJ8tVcN3fPzzd4WU2nPuHEjK.HuLeBYaWdVr.wco1hFm7EyqjrK, roles=[ROLE_USER])
+2020-01-30 22:43:50.519 DEBUG 8684 --- [main] com.example.demo.DataInitializer         :  User :User(id=4, username=admin, password={bcrypt}$2a$10$uG3UmJY4Rfy8eSdrT6H/iuaq2KlWEmK7eZfuTDvTymIwqsdFxFnsi, roles=[ROLE_USER, ROLE_ADMIN])
+2020-01-30 22:46:19.118  INFO 8684 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-30 22:46:19.118  INFO 8684 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-30 22:46:19.156  INFO 8684 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 38 ms
+2020-01-30 22:46:19.182 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 1 of 11 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2020-01-30 22:46:19.184 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 2 of 11 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2020-01-30 22:46:19.185 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 3 of 11 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2020-01-30 22:46:19.190 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 4 of 11 in additional filter chain; firing Filter: 'LogoutFilter'
+2020-01-30 22:46:19.190 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', GET]
+2020-01-30 22:46:19.191 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/v1/vehicles'; against '/logout'
+2020-01-30 22:46:19.191 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', POST]
+2020-01-30 22:46:19.191 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /v1/vehicles' doesn't match 'POST /logout'
+2020-01-30 22:46:19.191 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', PUT]
+2020-01-30 22:46:19.191 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /v1/vehicles' doesn't match 'PUT /logout'
+2020-01-30 22:46:19.191 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', DELETE]
+2020-01-30 22:46:19.191 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /v1/vehicles' doesn't match 'DELETE /logout'
+2020-01-30 22:46:19.191 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2020-01-30 22:46:19.193 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 5 of 11 in additional filter chain; firing Filter: 'JwtTokenAuthenticationFilter'
+2020-01-30 22:46:19.194 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 6 of 11 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2020-01-30 22:46:19.194 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 7 of 11 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2020-01-30 22:46:19.196 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 8 of 11 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2020-01-30 22:46:19.199 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@c871aef8: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2020-01-30 22:46:19.200 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 9 of 11 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2020-01-30 22:46:19.204 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 10 of 11 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2020-01-30 22:46:19.204 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles at position 11 of 11 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2020-01-30 22:46:19.206 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/v1/vehicles'; against '/auth/signin'
+2020-01-30 22:46:19.206 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/v1/vehicles'; against '/vehicles/**'
+2020-01-30 22:46:19.207 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /v1/vehicles' doesn't match 'DELETE /vehicles/**'
+2020-01-30 22:46:19.207 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/v1/vehicles'; against '/v1/vehicles/**'
+2020-01-30 22:46:19.207 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /v1/vehicles; Attributes: [permitAll]
+2020-01-30 22:46:19.207 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.AnonymousAuthenticationToken@c871aef8: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS
+2020-01-30 22:46:19.216 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@5edcf738, returned: 1
+2020-01-30 22:46:19.216 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2020-01-30 22:46:19.216 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2020-01-30 22:46:19.216 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /v1/vehicles reached end of additional filter chain; proceeding with original chain
+2020-01-30 22:46:19.347 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@25700b2d
+2020-01-30 22:46:19.352 DEBUG 8684 --- [http-nio-8080-exec-2] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2020-01-30 22:46:19.353 DEBUG 8684 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
